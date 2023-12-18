@@ -48,7 +48,7 @@ $ npm run build // This will compile the react code using Webpack and generate a
 $ npm run start // This will run the files in docs, this behavior is the same as how gh-pages will run your static site
 ```
 
-## Server-side usage(PORT: 3000)
+## Server-side usage(PORT: 3001)
 
 run the script at the first level:
 
