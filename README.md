@@ -100,6 +100,9 @@ Email verification process to confirm user identity and account activation.
 
 ## Admin CMS (Content Management System)
 
+Admin@123
+admin@virtualfarmmarket.com
+
 ![Admin CMS](./screenShorts/AdminCMS.png)
 Backend interface allowing administrators to manage content and website functionalities.
 
