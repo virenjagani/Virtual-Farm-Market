@@ -40,7 +40,7 @@ notice, you need the client and server runs concurrently in a different terminal
 ## Client-side usage(PORT: 3000)
 ```terminal
 $ cd client          // go to client folder
-$ yarn # or npm i    // npm install packages
+$ yarn # or npm i --force    // npm install packages
 $ npm run dev        // run it locally
 
 // deployment for client app
