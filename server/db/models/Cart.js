@@ -9,11 +9,12 @@ const CartSchema = new mongoose.Schema({
   updatedAt: { type: String, default: "" },
 });
 
+// This pre-save hook ensures that createdAt and updatedAt fields are set before saving the document
 CartSchema.pre("save", function (next) {
   if (!this.createdAt) {
-    this.createdAt = DS.now();
+    this.createdAt = DS.now(); // Set createdAt if not already present
   }
-  this.updatedAt = DS.now();
+  this.updatedAt = DS.now(); // Update updatedAt
   next();
 });
 
